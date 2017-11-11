@@ -1,0 +1,30 @@
+<!doctype html>
+<title>xterm.js</title>
+
+<link rel="stylesheet" href="xterm.css" />
+<link rel="stylesheet" href="style.css" />
+<script src="xterm.js"></script>
+<script src="addons/fit/fit.js"></script>
+
+<script src="main.js"></script>
+<script>
+;(function() {
+  window.onload = function() {
+		x2();
+  };
+}).call(this);
+</script>
+<html>
+	<body>
+		<div class="terminal" style="display:none">
+			<div class="test xterm-bg-color-0"></div>
+			<div class="test xterm-bg-color-1"></div>
+			<div class="test xterm-bg-color-2"></div>
+			<div class="test xterm-bg-color-3"></div>
+			<div class="test xterm-bg-color-4"></div>
+			<div class="test xterm-bg-color-5"></div>
+			<div class="test xterm-bg-color-6"></div>
+		</div>
+		<div id="terminal-container"></div>
+	</body>
+</html>
